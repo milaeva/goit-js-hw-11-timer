@@ -6,7 +6,7 @@ body {
   overflow: hidden;
   height: 100%;
   background: #0f3854;
-  background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
+  background: radial-gradient(circle at center, #0b5164 10%, #322350 90%);
   background-size: 100%;
 }
 
