@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: 100%;
+  background: #0f3854;
+  background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
+  background-size: 100%;
+}
+
+.timer {
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  justify-content: space-around;
+
+  font-family: 'Share Tech Mono', monospace;
+  text-align: center;
+  color: #daf6ff;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.value {
+  letter-spacing: 0.05em;
+  font-size: 80px;
+  padding: 10px 0;
+}
+
+.label {
+  letter-spacing: 0.1em;
+  font-size: 12px;
+}
+
+h1,
+a {
+  color: white;
+}
